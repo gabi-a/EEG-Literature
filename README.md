@@ -2,8 +2,8 @@
 
 * [Efficient Epileptic Seizure Prediction Based on Deep Learning](https://ieeexplore.ieee.org/document/8765420)
 * [Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
- * September 2017  
- * make model interpretable
+  * September 2017  
+  * make model interpretable
 * [A fuzzy classifier based detection for epileptic seizure signals](https://ieeexplore.ieee.org/document/8289771)
 * [Do Features From Short Durational Segments Classify Epileptic EEG Signals Effectively?](https://ieeexplore.ieee.org/document/8629837)
 * [Automated Epilepsy Diagnosis Using EEG With Test Set Evaluation](https://ieeexplore.ieee.org/document/8705361)
@@ -17,6 +17,3 @@
 * [Large margin transductive transfer learning](https://dl.acm.org/citation.cfm?id=1646121)
 * [Transfer learning and active transfer learning for reducing calibration data in single-trial classification of visually-evoked potentials](https://ieeexplore.ieee.org/document/6974353)
 * [Seizure Prediction by Graph Mining, Transfer Learning, and Transformation Learning](https://link.springer.com/chapter/10.1007/978-3-319-21024-7_3)
-* []()
-* []()
-* []()
