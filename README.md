@@ -3,7 +3,9 @@
 * [Efficient Epileptic Seizure Prediction Based on Deep Learning](https://ieeexplore.ieee.org/document/8765420)
 * [Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
   * September 2017  
-  * make model interpretable
+  * Introduces TSK method: not statistically better than other ML techniques, but output is more interpretable - generates "fuzzy rules" which can be written in english ``IF signal in frequency band 1 is High`` etc.
+  * EEG data available: [link](http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3&changelang=3)
+  * Transfer learning is tested in Scenario 2 ... but the testing dataset always contains at least one group from the training dataset!!
 * [A fuzzy classifier based detection for epileptic seizure signals](https://ieeexplore.ieee.org/document/8289771)
 * [Do Features From Short Durational Segments Classify Epileptic EEG Signals Effectively?](https://ieeexplore.ieee.org/document/8629837)
 * [Automated Epilepsy Diagnosis Using EEG With Test Set Evaluation](https://ieeexplore.ieee.org/document/8705361)
@@ -17,3 +19,9 @@
 * [Large margin transductive transfer learning](https://dl.acm.org/citation.cfm?id=1646121)
 * [Transfer learning and active transfer learning for reducing calibration data in single-trial classification of visually-evoked potentials](https://ieeexplore.ieee.org/document/6974353)
 * [Seizure Prediction by Graph Mining, Transfer Learning, and Transformation Learning](https://link.springer.com/chapter/10.1007/978-3-319-21024-7_3)
+
+General notes
+-------------
+### Performance evaluation methods
+* number of correctly predicted testing data / number of total testing data
+* Friedman test + Holm's post hoc test
