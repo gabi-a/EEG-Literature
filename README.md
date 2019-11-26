@@ -1,6 +1,14 @@
 # EEG-Literature
 
+Very relevant
+-------------
+* [A Review on EEG Based Epileptic Seizure Prediction Using Machine Learning Techniques](https://link.springer.com/chapter/10.1007%2F978-3-030-30465-2_43)
 * [Efficient Epileptic Seizure Prediction Based on Deep Learning](https://ieeexplore.ieee.org/document/8765420)
+* [Learning Robust Features using Deep Learning for Automatic Seizure Detection](http://proceedings.mlr.press/v56/Thodoroff16.html)
+
+
+Less relevant
+-------------
 * [Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
   * September 2017  
   * Introduces TSK method: not statistically better than other ML techniques, but output is more interpretable - generates "fuzzy rules" which can be written in english ``IF signal in frequency band 1 is High`` etc.
@@ -21,6 +29,8 @@
 * [Seizure Prediction by Graph Mining, Transfer Learning, and Transformation Learning](https://link.springer.com/chapter/10.1007/978-3-319-21024-7_3)
 * [Applying Deep Learning for Epilepsy Seizure Detection and Brain Mapping Visualization](https://dl.acm.org/citation.cfm?id=3241056)
 * [Optimized Deep Learning for EEG Big Data and Seizure Prediction BCI via Internet of Things](https://www.computer.org/csdl/journal/bd/2017/04/08094871/13rRUxly97y)
+
+
 
 General notes
 -------------
