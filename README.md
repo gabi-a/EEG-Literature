@@ -7,9 +7,6 @@ Prediction
   * Dataset: CHB-MIT
   * Deep Convolutional Autoencoder + Bi-LSTM
   * Patient specific
-* [(2016) Learning Robust Features using Deep Learning for Automatic Seizure Detection](http://proceedings.mlr.press/v56/Thodoroff16.html)
-  * Dataset: CHB-MIT
-  * 3D probe positions -> 2D points -> FFT, 3 bin RGB -Cubic Interpolation-> 2D images
 * [(Oct 2019) Using Deep Learning and Machine Learning to Detect Epileptic Seizure with Electroencephalography (EEG) Data](https://arxiv.org/pdf/1910.02544.pdf)
   * Dataset: UCI
   * Training:Testing = 8:2
@@ -26,11 +23,14 @@ Classification
   * Needs many more samples than traditional ML methods (long time span) 
   * Classification not prediction (realtime prediction using IndRNN is intended future work)
   * *on arxiv -- not reviewed*
-* [Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
+* [(Sept 2017) Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
   * September 2017  
   * Introduces TSK method: not statistically better than other ML techniques, but output is more interpretable - generates "fuzzy rules" which can be written in english ``IF signal in frequency band 1 is High`` etc.
   * EEG data available: [link](http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3&changelang=3)
   * Classifies whether a patient is epileptic or not (easier problem)
+* [(2016) Learning Robust Features using Deep Learning for Automatic Seizure Detection](http://proceedings.mlr.press/v56/Thodoroff16.html)
+  * Dataset: CHB-MIT
+  * 3D probe positions -> 2D points -> FFT, 3 bin RGB -Cubic Interpolation-> 2D images
 
 Datasets
 --------
@@ -49,6 +49,9 @@ Datasets
 * [Bonn](http://ntsa.upf.edu/downloads/andrzejak-rg-et-al-2001-indications-nonlinear-deterministic-and-finite-dimensional)
   * 5 humans
   * A-E sets of 100 single channel EEGs, only set E contains seizures 
+* [TUH EEG](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml)
+  * 316 humans
+
 
 More Papers
 -----------
