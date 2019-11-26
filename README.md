@@ -1,7 +1,7 @@
 # EEG-Literature
 
-Very relevant
--------------
+Prediction
+----------
 * [(Oct 2019) A Review on EEG Based Epileptic Seizure Prediction Using Machine Learning Techniques](https://link.springer.com/chapter/10.1007%2F978-3-030-30465-2_43)
 * [(Oct 2019) Efficient Epileptic Seizure Prediction Based on Deep Learning](https://ieeexplore.ieee.org/document/8765420)
   * Dataset: CHB-MIT
@@ -15,6 +15,9 @@ Very relevant
   * Training:Testing = 8:2
   * Good comparison of different ML and DL models
   * *on arxiv -- not reviewed*
+
+Classification
+--------------
 * [(March 2019) A Novel Independent RNN Approach to Classification of Seizures against Non-seizures](https://arxiv.org/pdf/1903.09326.pdf)
   * Datasets: Bonn; CHB-MIT
   * Useful summary of related works
@@ -23,6 +26,11 @@ Very relevant
   * Needs many more samples than traditional ML methods (long time span) 
   * Classification not prediction (realtime prediction using IndRNN is intended future work)
   * *on arxiv -- not reviewed*
+* [Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
+  * September 2017  
+  * Introduces TSK method: not statistically better than other ML techniques, but output is more interpretable - generates "fuzzy rules" which can be written in english ``IF signal in frequency band 1 is High`` etc.
+  * EEG data available: [link](http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3&changelang=3)
+  * Classifies whether a patient is epileptic or not (easier problem)
 
 Datasets
 --------
@@ -42,16 +50,8 @@ Datasets
   * 5 humans
   * A-E sets of 100 single channel EEGs, only set E contains seizures 
 
-Less relevant
--------------
-* [Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
-  * September 2017  
-  * Introduces TSK method: not statistically better than other ML techniques, but output is more interpretable - generates "fuzzy rules" which can be written in english ``IF signal in frequency band 1 is High`` etc.
-  * EEG data available: [link](http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3&changelang=3)
-  * Classifies whether a patient is epileptic or not (easier problem)
-
-Not sure
---------
+More Papers
+-----------
 * [A fuzzy classifier based detection for epileptic seizure signals](https://ieeexplore.ieee.org/document/8289771)
 * [Do Features From Short Durational Segments Classify Epileptic EEG Signals Effectively?](https://ieeexplore.ieee.org/document/8629837)
 * [Automated Epilepsy Diagnosis Using EEG With Test Set Evaluation](https://ieeexplore.ieee.org/document/8705361)
