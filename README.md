@@ -24,13 +24,15 @@ Classification
   * Classification not prediction (realtime prediction using IndRNN is intended future work)
   * *on arxiv -- not reviewed*
 * [(Sept 2017) Seizure Classification From EEG Signals Using Transfer Learning, Semi-Supervised Learning and TSK Fuzzy System](https://ieeexplore.ieee.org/document/8024036)  
-  * September 2017  
+  * Dataset: Bonn  
   * Introduces TSK method: not statistically better than other ML techniques, but output is more interpretable - generates "fuzzy rules" which can be written in english ``IF signal in frequency band 1 is High`` etc.
   * EEG data available: [link](http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3&changelang=3)
   * Classifies whether a patient is epileptic or not (easier problem)
 * [(2016) Learning Robust Features using Deep Learning for Automatic Seizure Detection](http://proceedings.mlr.press/v56/Thodoroff16.html)
   * Dataset: CHB-MIT
   * 3D probe positions -> 2D points -> FFT, 3 bin RGB -Cubic Interpolation-> 2D images
+* [(August 2015) Adversarial Representation Learning for RobustPatient-Independent Epileptic Seizure Detection](https://arxiv.org/pdf/1909.10868.pdf)
+  * Adversarial method to be patient independent (i.e. not dependent on age and gender) 
 
 Datasets
 --------
@@ -48,10 +50,14 @@ Datasets
     5. eyes open, means when they were recording the EEG signal of the brain the patient had their eyes open
 * [Bonn](http://ntsa.upf.edu/downloads/andrzejak-rg-et-al-2001-indications-nonlinear-deterministic-and-finite-dimensional)
   * 5 humans
-  * A-E sets of 100 single channel EEGs, only set E contains seizures 
+  * A-E sets of 100 single channel EEGs, only set E contains seizures
+  * Some preprocessing/filtering of data 
 * [TUH EEG](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml)
   * 316 humans
-
+* [IEEG.org](https://www.ieeg.org)
+  * Collection of many data sets
+  * Mostly animals (?)
+  * Don't know which ones are annotated
 
 More Papers
 -----------
@@ -77,10 +83,3 @@ General notes
 * number of correctly predicted testing data / number of total testing data
 * Friedman test + Holm's post hoc test
 
-### Publicly available data sets
-* [UCSD dataset and links to other datasets](https://sccn.ucsd.edu/~arno/fam2data/publicly_available_EEG_data.html)
-* [IEEG.org](https://www.ieeg.org/)
-* Number of channels
-* Number of people
-* Average duration
-* Experience of people
