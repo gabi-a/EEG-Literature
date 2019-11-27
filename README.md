@@ -12,6 +12,8 @@ Prediction
   * Training:Testing = 8:2
   * Good comparison of different ML and DL models
   * *on arxiv -- not reviewed*
+* [Epileptic Seizure Prediction Using Big Data and Deep Learning: Toward a Mobile System](https://www.sciencedirect.com/science/article/pii/S235239641730470X)
+  * Dataset: Private
 
 Classification
 --------------
@@ -32,6 +34,7 @@ Classification
   * Dataset: CHB-MIT
   * 3D probe positions -> 2D points -> FFT, 3 bin RGB -Cubic Interpolation-> 2D images
 * [(August 2015) Adversarial Representation Learning for RobustPatient-Independent Epileptic Seizure Detection](https://arxiv.org/pdf/1909.10868.pdf)
+  * Dataset: TUH
   * Adversarial method to be patient independent (i.e. not dependent on age and gender) 
 
 Datasets
@@ -55,6 +58,7 @@ Datasets
 * [TUH EEG](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml)
   * 316 humans
 * [IEEG.org](https://www.ieeg.org)
+  * Intracranial EEG
   * Collection of many data sets
   * Mostly animals (?)
   * Don't know which ones are annotated
