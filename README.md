@@ -14,6 +14,10 @@ Prediction
   * *on arxiv -- not reviewed*
 * [Epileptic Seizure Prediction Using Big Data and Deep Learning: Toward a Mobile System](https://www.sciencedirect.com/science/article/pii/S235239641730470X)
   * Dataset: Private
+* [(Apr 2019) Human Intracranial EEG Quantitative Analysis and Automatic Feature Learning for Epileptic Seizure Prediction](https://arxiv.org/abs/1904.03603)
+  * *on arxiv -- not reviewed*
+* [(Aug 2017) Prediction of Epileptic Seizure by Analysing Time Series EEG Signal Using k-NN Classifier](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5574243/)
+* [[Blog Post] (May 2019) Epileptic Seizure Classification ML Algorithms](https://towardsdatascience.com/seizure-classification-d0bb92d19962)
 
 Classification
 --------------
